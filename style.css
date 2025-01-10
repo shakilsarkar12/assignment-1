@@ -7,17 +7,55 @@
     box-sizing: border-box;
 }
 
+/* shared style */
+.primary-btn {
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    background: #006A50;
+    padding: 15px 30px;
+    border: 1px solid #006A50;
+    position: relative;
+    z-index: 100;
+    cursor: pointer;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.primary-btn:hover {
+    color: #006A50;
+}
+
+.primary-btn::before {
+    content: "";
+    height: 100%;
+    width: 0;
+    background: #C6E4D6;
+    position: absolute;
+    top: 0;
+    left: -4px;
+    z-index: -1;
+    transition: .5s;
+}
+
+.primary-btn:hover::before {
+    width: 120%;
+}
+
 body{
-    max-width: 1600px;
+    max-width: 1580px;
     background: #f5f5f5;
     margin: auto;
 }
 
+
+/* This Style For Header  Section*/
 header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 24px;
+    padding: 24px 0;
 }
 
 header .logo{
@@ -26,20 +64,41 @@ header .logo{
     font-size: 30px;
 }
 
-header .signin-btn{
-    font-size: 16px;
-    font-weight: 500;
-    padding: 15px 30px;
-    color: #006A50;
-    border: 1px solid #006A50;
-    border-radius: 8px;
-    background-color: #fff;
-    transition: .5s;
-    cursor: pointer;
+
+/* This Style For Banner  Section */
+#banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #C6E4D6;
+    padding: 80px 70px;
+    border-radius: 20px;
+    margin-top: 20px;
 }
 
-header .signin-btn:hover{
-    background: #006A50;
-    color: #fff;
-    border: 1px solid #006A50;
+#banner .banner-text{
+    width: 60%;
+}
+
+#banner .banner-text .sub-title{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #0E0E0E;
+    opacity: 0.6;
+}
+
+#banner .banner-text .title{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #0E0E0E;
+}
+
+#banner .banner-img{
+    width: 40%;
+}
+
+#banner .banner-img img{
+    width: 100%;
 }
