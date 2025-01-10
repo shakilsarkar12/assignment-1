@@ -49,6 +49,9 @@ body{
     margin: auto;
 }
 
+section{
+    margin: 80px 0;
+}
 
 /* This Style For Header  Section*/
 header{
@@ -101,4 +104,46 @@ header .logo{
 
 #banner .banner-img img{
     width: 100%;
+}
+
+/* This Style For Pillar  Section */
+
+#pillar .pillar-heading{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-bottom: 35px;
+}
+
+#pillar .pillar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: ;
+}
+
+#pillar .pillar-container .pillar-box{
+    border: 1px solid #0e0e0e17;
+    border-radius: 16px;
+    width: 350px;
+    height: 260px;
+    padding: 24px;
+}
+
+#pillar .pillar-container .pillar-box .tittle{
+    font-size: 20px;
+    font-weight: bold;
+    color: #3E3E3E;
+    margin-bottom: 13px;
+}
+
+#pillar .pillar-container .pillar-box .desc{
+    font-size: 16px;
+    line-height: 23px;
+    color: #565656;
+}
+
+#pillar .pillar-container .pillar-box img{
+    width: 60px;
+    margin-bottom: 15px;
 }
