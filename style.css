@@ -387,7 +387,6 @@ input[type="number"]::-webkit-outer-spin-button {
     height: 350px;
     border-radius: 15px;
     padding: 60px 300px;
-    margin: auto;
 }
 
 #newsletter .newsletter-tittle {
@@ -461,5 +460,10 @@ footer .footer-icon {
 
 footer .footer-icon img {
     width: 24px;
+    transition: .5s;
     cursor: pointer;
+}
+
+footer .footer-icon img:hover{
+    scale: 1.1;
 }
