@@ -52,7 +52,7 @@
 
 .desc{
     font-size: 16px;
-    line-height: 23px;
+    line-height: 25px;
     color: #565656;
 }
 
@@ -125,7 +125,6 @@ header .logo{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: ;
 }
 
 #pillar .pillar-container .pillar-box{
@@ -190,3 +189,115 @@ header .logo{
     background: var(--hover);
 }
 
+/* This Style For Quote  Section */
+
+#quote{
+    background: #fff;
+     background-image: url(assets/quote-bg.png);
+     background-repeat: no-repeat;
+     background-position: left 24px top 24px;
+     background-size: 64px;
+     border-radius: 15px;
+     height: 242px;
+     padding: 48px 24px;
+     margin-top: -50px;
+}
+
+#quote .desc:nth-child(1){
+    line-height: 25px;
+    margin-bottom: 12px;
+    color: #424141;
+}
+
+#quote .tittle{
+    margin-bottom: 10px;
+}
+
+/* This Style For opinion  Section */
+
+#opinion .opinion-box{
+    background: #fff;
+    padding: 32px;
+    border-radius: 15px;
+}
+
+#opinion .opinion-box .table-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+    background: #C6E4D6;
+    border: 1px solid #0E0E0E15;
+}
+
+#opinion tr, #opinion td{
+    border: 1px solid #0E0E0E15;
+    padding: 15px;
+}
+
+#opinion table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#opinion .select{
+    font-size: 16px;
+    margin: 0 21%;
+    padding: 14px 18px;
+    border: 1 px solid #565656;
+    border-radius: 8px;
+    background: #C6E4D6;
+}
+
+#opinion .select i{
+    margin-left: 5px;
+}
+
+/* This Style For news  Section */
+
+#news .news-container .news-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 50px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    gap: 32px;
+}
+
+#news .news-container .news-box:nth-child(2){
+    flex-direction: row-reverse;
+}
+
+#news .news-container .news-box .img{
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+#news .news-container .news-box .news-text .heading{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 13px;
+    color: #3E3E3E;
+}
+
+#news .news-container .news-box .news-text .media{
+    width: 130px;
+    margin-bottom: 13px;
+}
+
+#news .news-container .news-box .news-text .dates{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 13px;
+    margin-bottom: 5px;
+}
+
+#news .news-container .news-box .news-text .primary-btn{
+    padding: 12px 28px;
+    margin-top: 30px;
+}
