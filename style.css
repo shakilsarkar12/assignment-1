@@ -301,3 +301,70 @@ header .logo{
     padding: 12px 28px;
     margin-top: 30px;
 }
+
+/* This Style For donate Section */
+#donate{
+    text-align: center;
+}
+
+#donate .donate-tittle{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    color: #0E0E0E;
+}
+
+#donate .desc{
+    padding: 0 80px;
+    margin-bottom: 32px;
+}
+
+#donate .amount-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    margin-bottom: 24px;
+}
+
+#donate .amount-container .amount-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 23%;
+    height: 130px;
+    border-radius: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #363933;
+    border: 1px solid #0E0E0E15;
+    background: #fff;
+    transition: .5s;
+}
+
+#donate .amount-container .amount-box:nth-child(2){
+    background: #C6E4D6;
+}
+
+#donate .amount-container .amount-box:hover{
+    background: #C6E4D6;
+}
+
+#donate input[type="number"]{
+    width: 85%;
+    height: 65px;
+    margin: auto;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 2px solid #0E0E0E15;
+    overflow-wrap: var(--hover);
+    background: #fff;
+    margin-bottom: 24px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
